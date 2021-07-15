@@ -2,6 +2,7 @@
 
 ### Initial Goals:
 
+- Create an inmemory temporal redis server, which can be run from a serverless function for zero-persistance Redis needs. I'm not sure if there is a true Production use-case here, but you never know.
 - Works in Vercel NextJS serverless functions
     - Inspo: [https://github.com/vercel/next.js/blob/canary/examples/with-passport-and-next-connect/pages/api/users.js](https://github.com/vercel/next.js/blob/canary/examples/with-passport-and-next-connect/pages/api/users.js)
     - Potentially possible to export a total custom handler, which awaits and accepts a redis protocol connection
