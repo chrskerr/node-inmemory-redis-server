@@ -1,0 +1,30 @@
+{
+	"name": "inmemory-redis-server",
+	"version": "1.0.0",
+	"description": "Inmemory Temporal Node Redis Server",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node ./src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chrskerr/node-inmemory-redis-server.git"
+	},
+	"author": "Chris Kerr",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/chrskerr/node-inmemory-redis-server/issues"
+	},
+	"homepage": "https://github.com/chrskerr/node-inmemory-redis-server#readme",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.28.3",
+		"@typescript-eslint/parser": "^4.28.3",
+		"eslint": "^7.30.0"
+	},
+	"dependencies": {
+		"@types/node": "^16.3.2",
+		"ts-node": "^10.1.0",
+		"typescript": "^4.3.5"
+	}
+}
